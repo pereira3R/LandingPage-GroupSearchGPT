@@ -558,17 +558,17 @@ h6 {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #007bff;
+  border: 2px solid #01c76b;
   transition: all 0.3s ease-in-out;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #007bff;
+  color: #01c76b;
   font-size: 24px;
 }
 
 #about .about-container .icon-box:hover .icon {
-  background: #007bff;
+  background: #01c76b;
 }
 
 #about .about-container .icon-box:hover .icon i {
@@ -606,7 +606,12 @@ h6 {
 
 #services {
   padding: 60px 0 40px 0;
+  background: url("../img/intro-bg.png") center top no-repeat;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+#services h3{
+  color: white;
 }
 
 #services .box {
@@ -627,7 +632,7 @@ h6 {
 
 #services .icon {
   position: absolute;
-  left: -10px;
+  left: 4px;
   top: calc(50% - 32px);
 }
 
@@ -649,7 +654,7 @@ h6 {
 }
 
 #services .box:hover .title a {
-  color: #007bff;
+  color: #009b53;
 }
 
 #services .description {
@@ -1430,4 +1435,65 @@ h6 {
   #intro {
     padding: 100px 0 20px 0;
   }
+}
+
+/*  Model test card   */
+
+
+.clickable-card {
+  display: block;
+  max-width: 400px;
+  margin-inline: auto;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: none;
+  background: #fff;
+  transform-origin: center center;
+  transition: all 0.4s ease-in-out;
+  text-decoration: none;
+  color: black;
+}
+
+
+.clickable-card img {
+  transform-origin: center;
+  transition: transform 0.4s ease-in-out;
+}
+
+.clickable-card:hover img,
+.clickable-card:focus img {
+  transform: scale(1.1);
+}
+
+.article-body {
+  padding: 24px;
+}
+
+.clickable-card h2 {
+  margin: 0 0 18px 0;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.9rem;
+  letter-spacing: 0.06em;
+  transition: color 0.3s ease-out;
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+/************************
+Generic layout 
+**************************/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
