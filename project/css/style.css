@@ -833,14 +833,69 @@ figure {
   box-sizing: border-box;
 }
 
+.btn-custom {
+  background-color: #01c76b; /* Cor de fundo do botão */
+  color: white; /* Cor do texto do botão */
+  border: 1px solid #01c76b; /* Cor da borda do botão */
+}
+
+/* Estilize o botão quando hover (opcional) */
+.btn-custom:hover {
+  background-color: #009b53;
+  border: 1px solid #009b53;
+  color: white;
+}
+
 
 /* Events Section */
 
-.container-events{
-  padding-top: 15px;
-  background: white;
+.container-events .section-header {
+  margin-top: 28px;
 }
 
+.carousel-inner .carousel-item img {
+  margin-bottom: 140px;
+  height: auto;
+}
+
+.carousel-inner .carousel-item .carousel-caption {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: -20px;
+}
+
+/* Responsive adjustments for carousel */
+
+@media (max-width: 768px) {
+  /* Reduce margin-bottom for images on smaller screens */
+  .carousel-inner .carousel-item img {
+    margin-bottom: 70px;
+    vertical-align: top; /* Isso posicionará a imagem no topo do contêiner */  }
+}
+
+@media (max-width: 576px) {
+  /* Further reduce margin-bottom for images on even smaller screens */
+  .carousel-inner .carousel-item img {
+    margin-bottom: 50px;
+    vertical-align: top; /* Isso posicionará a imagem no topo do contêiner */
+  }
+
+  /* Adjust font size for captions on smaller screens */
+  .carousel-inner .carousel-item .carousel-caption {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 425px) {
+  /* Minimize margin-bottom for images on very small screens */
+  .carousel-inner .carousel-item img {
+    margin-bottom: 30px;
+    vertical-align: top; /* Isso posicionará a imagem no topo do contêiner */  }
+
+  /* Reduce font size further for captions on very small screens */
+  .carousel-inner .carousel-item .carousel-caption {
+    font-size: 12px;
+  }
+}
 
 
 
@@ -1096,6 +1151,19 @@ figure {
 #contact .form button[type="submit"]:hover {
   background: #028f4d;
   cursor: pointer;
+}
+
+.btn-contact {
+  background-color: #01c76b; /* Cor de fundo do botão */
+  color: white; /* Cor do texto do botão */
+  border: 1px solid #01c76b; /* Cor da borda do botão */
+}
+
+/* Estilize o botão quando hover (opcional) */
+.btn-contact:hover {
+  background-color: #009b53;
+  border: 1px solid #009b53;
+  color: white;
 }
 
 

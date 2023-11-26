@@ -10,8 +10,13 @@ function filterSelection(category) {
     });
   }
   
-  function openModal() {
-    // Implemente a lógica para abrir o modal conforme necessário
-    alert('Modal aberto!');
+  function openModal(cardId) {
+    // Aqui você pode adicionar as informações específicas do cartão ao modal
+    var modalContent = document.getElementById('modalContent');
+    
+    // Exemplo: Apenas exibindo o ID do cartão no modal
+    modalContent.innerHTML = 'Informações adicionais para o cartão com ID: ' + cardId;
+
+    // Exibindo o modal
+    $('#infoModal').modal('show');
   }
-  
