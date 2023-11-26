@@ -664,81 +664,6 @@ h6 {
   margin-bottom: 0;
 }
 
-#why-us {
-  padding: 60px 0;
-  background: #004a99;
-}
-
-#why-us .section-header h3,
-#why-us .section-header p {
-  color: #fff;
-}
-
-#why-us .card {
-  background: #00458f;
-  border-color: #00458f;
-  border-radius: 10px;
-  margin: 0 15px;
-  padding: 15px 0;
-  text-align: center;
-  color: #fff;
-  transition: 0.3s ease-in-out;
-  height: 100%;
-}
-
-#why-us .card:hover {
-  background: #003b7a;
-  border-color: #003b7a;
-}
-
-#why-us .card i {
-  font-size: 48px;
-  padding-top: 15px;
-  color: #bfddfe;
-}
-
-#why-us .card h5 {
-  font-size: 22px;
-  font-weight: 600;
-}
-
-#why-us .card p {
-  font-size: 15px;
-  color: #d8eafe;
-}
-
-#why-us .card .readmore {
-  color: #fff;
-  font-weight: 600;
-  display: inline-block;
-  transition: 0.3s ease-in-out;
-  border-bottom: #00458f solid 2px;
-}
-
-#why-us .card .readmore:hover {
-  border-bottom: #fff solid 2px;
-}
-
-#why-us .counters {
-  padding-top: 40px;
-}
-
-#why-us .counters span {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 48px;
-  display: block;
-  color: #fff;
-}
-
-#why-us .counters p {
-  padding: 0;
-  margin: 0 0 20px 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  color: #cce5ff;
-}
-
 /* Portfolio Section
 --------------------------------*/
 
@@ -761,7 +686,7 @@ h6 {
   padding: 6px 20px;
   font-size: 12px;
   line-height: 20px;
-  color: #007bff;
+  color: #028f4d;
   border-radius: 50px;
   text-transform: uppercase;
   background: #ecf5ff;
@@ -771,7 +696,7 @@ h6 {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  background: #007bff;
+  background: #028f4d;
   color: #fff;
 }
 
@@ -779,171 +704,85 @@ h6 {
   margin-right: 0;
 }
 
-#portfolio .portfolio-item {
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 30px;
-}
-
-#portfolio .portfolio-item .portfolio-wrap {
-  overflow: hidden;
-  position: relative;
-  border-radius: 6px;
-  margin: 0;
-}
-
-#portfolio .portfolio-item .portfolio-wrap:hover img {
-  opacity: 0.4;
-  transition: 0.3s;
-}
-
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
+/* container-card */
+.container-card{
   display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  text-align: center;
-  opacity: 0;
-  transition: 0.2s linear;
+  flex-wrap: wrap; /* Permite que os cards vão para a linha abaixo quando não há espaço suficiente na largura da tela */
+  justify-content: center; /* Centraliza os cards na tela */  
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 {
-  font-size: 22px;
-  line-height: 1px;
-  font-weight: 700;
-  margin-bottom: 14px;
-  padding-bottom: 0;
-}
-
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a {
-  color: #fff;
-}
-
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
-  color: #007bff;
-}
-
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
-  padding: 0;
-  margin: 0;
-  color: #e2effe;
-  font-weight: 500;
-  font-size: 14px;
-  text-transform: uppercase;
-}
-
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details {
-  display: inline-block;
-  line-height: 1;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  background: #007bff;
-  border-radius: 50%;
-  margin: 10px 4px 0 4px;
-}
-
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview i,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details i {
-  padding-top: 6px;
-  font-size: 22px;
-  color: #fff;
-}
-
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
-  background: #3395ff;
-}
-
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
-  color: #fff;
-}
-
-#portfolio .portfolio-item .portfolio-wrap:hover {
-  background: #003166;
-}
-
-#portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
-  opacity: 1;
-}
-
-/* Testimonials Section
---------------------------------*/
-
-#testimonials {
-  padding: 60px 0;
-  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-}
-
-#testimonials .section-header {
-  margin-bottom: 40px;
-}
-
-#testimonials .testimonial-item .testimonial-img {
-  width: 120px;
-  border-radius: 50%;
-  border: 4px solid #fff;
-  float: left;
-}
-
-#testimonials .testimonial-item h3 {
-  font-size: 20px;
-  font-weight: bold;
-  margin: 10px 0 5px 0;
-  color: #111;
-  margin-left: 140px;
-}
-
-#testimonials .testimonial-item h4 {
-  font-size: 14px;
-  color: #999;
-  margin: 0 0 15px 0;
-  margin-left: 140px;
-}
-
-#testimonials .testimonial-item p {
-  font-style: italic;
-  margin: 0 0 15px 140px;
-}
-
-#testimonials .owl-nav,
-#testimonials .owl-dots {
+.card-body .card-title{
   margin-top: 5px;
-  text-align: center;
+  font-weight: bold; /* Torna todo o texto em negrito */
 }
 
-#testimonials .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd;
+.card-body #btn-card{
+  background: #028f4d;
+  border-color: 1px solid #028f4d; 
 }
 
-#testimonials .owl-dot.active {
-  background-color: #007bff;
+#clickable-card {
+  display: block;
+  max-width: 400px;
+  margin-inline: auto;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: none;
+  background: #fff;
+  transform-origin: center center;
+  transition: all 0.4s ease-in-out;
+  text-decoration: none;
+  color: black;
 }
+
+
+#clickable-card img {
+  transform-origin: center;
+  transition: transform 0.4s ease-in-out;
+}
+
+#clickable-card:hover img,
+#clickable-card:focus img {
+  transform: scale(1.1);
+}
+
+.article-body {
+  padding: 24px;
+}
+
+#clickable-card h2 {
+  margin: 0 0 18px 0;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.9rem;
+  letter-spacing: 0.06em;
+  transition: color 0.3s ease-out;
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+/* Events Section */
+
+.container-events{
+  padding-top: 15px;
+  background: #1a1722;
+}
+
 
 /* Team Section
 --------------------------------*/
@@ -1032,49 +871,6 @@ h6 {
   margin: 0 2px;
 }
 
-/* Clients Section
---------------------------------*/
-
-#clients {
-  padding: 60px 0;
-  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-}
-
-#clients .clients-wrap {
-  border-top: 1px solid #d6eaff;
-  border-left: 1px solid #d6eaff;
-  margin-bottom: 30px;
-}
-
-#clients .client-logo {
-  padding: 64px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-right: 1px solid #d6eaff;
-  border-bottom: 1px solid #d6eaff;
-  overflow: hidden;
-  background: #fff;
-  height: 160px;
-}
-
-#clients .client-logo:hover img {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-}
-
-#clients img {
-  transition: all 0.4s ease-in-out;
-}
 
 /* Contact Section
 --------------------------------*/
@@ -1435,65 +1231,4 @@ h6 {
   #intro {
     padding: 100px 0 20px 0;
   }
-}
-
-/*  Model test card   */
-
-
-.clickable-card {
-  display: block;
-  max-width: 400px;
-  margin-inline: auto;
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: none;
-  background: #fff;
-  transform-origin: center center;
-  transition: all 0.4s ease-in-out;
-  text-decoration: none;
-  color: black;
-}
-
-
-.clickable-card img {
-  transform-origin: center;
-  transition: transform 0.4s ease-in-out;
-}
-
-.clickable-card:hover img,
-.clickable-card:focus img {
-  transform: scale(1.1);
-}
-
-.article-body {
-  padding: 24px;
-}
-
-.clickable-card h2 {
-  margin: 0 0 18px 0;
-  font-family: "Bebas Neue", cursive;
-  font-size: 1.9rem;
-  letter-spacing: 0.06em;
-  transition: color 0.3s ease-out;
-}
-
-img {
-  max-width: 100%;
-}
-
-figure {
-  margin: 0;
-  padding: 0;
-  aspect-ratio: 16 / 9;
-  overflow: hidden;
-}
-
-/************************
-Generic layout 
-**************************/
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
 }

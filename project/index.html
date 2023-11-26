@@ -56,7 +56,7 @@
         <ul>
           <li class="active"><a href="#intro">Home</a></li>
           <li><a href="#about">Sobre nós</a></li>
-          <li><a href="#services">Prompts</a></li>
+          <li><a href="#services">Objetivos</a></li>
           <li><a href="#portfolio">Portfólio</a></li>
           <li><a href="#team">Time</a></li>
           <li><a href="#contact">Contate-nos</a></li>
@@ -80,10 +80,9 @@
         <h2>Nós estudamos<br><span>como melhorar</span><br>a sua aprendizagem guiada com Chat GPT</h2>
         <div>
           <a href="#about" class="btn-get-started scrollto">Iniciar</a>
-          <a href="#services" class="btn-services scrollto">Nossos prompts</a>
+          <a href="#portfolio" class="btn-services scrollto">Nossos prompts</a>
         </div>
       </div>
-
     </div>
   </section><!-- #intro -->
 
@@ -246,34 +245,50 @@
         <div class="row">
           <div class="col-lg-12">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">Tudo</li>
-              <li data-filter=".filter-app">Prompts</li>
-              <li data-filter=".filter-card">Eventos</li>
+              <li data-filter="*" class="filter-active" onclick="filterSelection('all')">Tudo</li>
+              <li data-filter=".filter-app" onclick="filterSelection('prompts')">Prompts</li>
+              <li data-filter=".filter-card" onclick="filterSelection('eventos')">Outra coisa</li>
             </ul>
           </div>
         </div>
 
-        <div class="clickable-card" style="width: 18rem;">
-          <img src="https://picsum.photos/id/1011/800/450" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <button class="btn btn-primary" onclick="openModal()">Read More</button>
-          </div>
-        </div>
-      
-        <div id="myModal" class="modal">
-          <div class="modal-content">
-            <span class="close" onclick="closeModal()">&times;</span>
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Detailed information about the card.</p>
-          </div>
-        </div>
+        <div class="container-card">
 
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" id="clickable-card" data-category="prompts"data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <img src="../project/img/portfolio/prompt01.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button id="btn-card" class="btn btn-primary" onclick="openModal()">Read More</button>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" id="clickable-card"  data-category="prompts" data-wow-delay="0.1s">
+            <img src="../project/img/portfolio/prompt02.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button id="btn-card" class="btn btn-primary" onclick="openModal()">Read More</button>
+            </div>
+          </div>
+
+        </div>
+        <script src="./js/script.js"></script>
         </div>
       </div>
     </section><!-- #portfolio -->
 
+    <!--==========================
+      Eventos Section
+    ============================-->
+      <div class="container-events">
+
+        <header class="section-header">
+          <h3>Eventos</h3>
+          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
+        </header>
+
+      </div>
     <!--==========================
       Team Section
     ============================-->
