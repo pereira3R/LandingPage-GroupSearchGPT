@@ -140,16 +140,16 @@ h6 {
   padding: 10px 0;
 }
 
-#container-logo{
+#container-logo {
   display: flex;
   align-items: center;
   margin-top: -20px;
 }
 
-#container-logo p{
+#container-logo p {
   margin-top: 30px;
   margin-left: 10px;
-  color:#00ff88
+  color: #00ff88
 }
 
 #header .logo h1 {
@@ -185,7 +185,8 @@ h6 {
 #intro {
   width: 100%;
   position: relative;
-  margin-top: -40px; /* Ajuste esse valor conforme necessário */
+  margin-top: -40px;
+  /* Ajuste esse valor conforme necessário */
   background: url("../img/intro-bg.png") center top no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
@@ -194,8 +195,10 @@ h6 {
 #intro .intro-img {
   width: 50%;
   float: right;
-  margin-top: -40px; /* Ajuste esse valor conforme necessário */
-  margin-bottom: 150px; /* Adicione um valor de margem inferior para manter o espaçamento desejado */
+  margin-top: -40px;
+  /* Ajuste esse valor conforme necessário */
+  margin-bottom: 150px;
+  /* Adicione um valor de margem inferior para manter o espaçamento desejado */
 }
 
 
@@ -270,11 +273,11 @@ h6 {
   list-style: none;
 }
 
-#all-nav{
+#all-nav {
   background: #1a1722;
 }
 
-.main-nav > ul > li {
+.main-nav>ul>li {
   position: relative;
   white-space: nowrap;
   float: left;
@@ -292,8 +295,8 @@ h6 {
 }
 
 .main-nav a:hover,
-.main-nav .active > a,
-.main-nav li:hover > a {
+.main-nav .active>a,
+.main-nav li:hover>a {
   color: #00ff88;
   text-decoration: none;
 }
@@ -312,7 +315,7 @@ h6 {
   transition: ease all 0.3s;
 }
 
-.main-nav .drop-down:hover > ul {
+.main-nav .drop-down:hover>ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -330,12 +333,12 @@ h6 {
 }
 
 .main-nav .drop-down ul a:hover,
-.main-nav .drop-down ul .active > a,
-.main-nav .drop-down ul li:hover > a {
+.main-nav .drop-down ul .active>a,
+.main-nav .drop-down ul li:hover>a {
   color: #007bff;
 }
 
-.main-nav .drop-down > a:after {
+.main-nav .drop-down>a:after {
   content: "\f107";
   font-family: FontAwesome;
   padding-left: 10px;
@@ -346,17 +349,17 @@ h6 {
   left: calc(100% - 30px);
 }
 
-.main-nav .drop-down .drop-down:hover > ul {
+.main-nav .drop-down .drop-down:hover>ul {
   opacity: 1;
   top: 0;
   left: 100%;
 }
 
-.main-nav .drop-down .drop-down > a {
+.main-nav .drop-down .drop-down>a {
   padding-right: 35px;
 }
 
-.main-nav .drop-down .drop-down > a:after {
+.main-nav .drop-down .drop-down>a:after {
   content: "\f105";
   position: absolute;
   right: 15px;
@@ -392,13 +395,13 @@ h6 {
 }
 
 .mobile-nav a:hover,
-.mobile-nav .active > a,
-.mobile-nav li:hover > a {
+.mobile-nav .active>a,
+.mobile-nav li:hover>a {
   color: #74b5fc;
   text-decoration: none;
 }
 
-.mobile-nav .drop-down > a:after {
+.mobile-nav .drop-down>a:after {
   content: "\f078";
   font-family: FontAwesome;
   padding-left: 10px;
@@ -406,11 +409,11 @@ h6 {
   right: 15px;
 }
 
-.mobile-nav .active.drop-down > a:after {
+.mobile-nav .active.drop-down>a:after {
   content: "\f077";
 }
 
-.mobile-nav .drop-down > a {
+.mobile-nav .drop-down>a {
   padding-right: 35px;
 }
 
@@ -610,7 +613,7 @@ h6 {
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
-#services h3{
+#services h3 {
   color: white;
 }
 
@@ -749,7 +752,7 @@ h6 {
 
 #portfolio #portfolio-flters {
   padding: 0;
-  margin: 5px 0 35px 0;
+  margin: 50px 0 35px 0;
   list-style: none;
   text-align: center;
 }
@@ -945,92 +948,116 @@ h6 {
   background-color: #007bff;
 }
 
+/*End testimonials
+---------------------------------------*/
+
 /* Team Section
 --------------------------------*/
 
+/* Adicione este estilo ao seu arquivo CSS */
+
+/* Adicione este estilo ao seu arquivo CSS */
+
 #team {
-  background: #fff;
-  padding: 60px 0;
-  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  background-color: #1a1722;
+  /* cor de fundo */
+  color: #009b53;
+  /* cor do texto */
+  padding: 40px 0;
+  /* ajuste para aumentar o espaço superior e inferior */
+  margin-top: -65px;
+  /* ajuste para levantar a seção um pouco mais */
 }
+
+/* ... O restante do seu estilo para a seção de equipe ... */
+
 
 #team .member {
   text-align: center;
-  margin-bottom: 20px;
-  position: relative;
+  margin-bottom: 30px;
+  /* espaço entre membros da equipe */
+}
+
+#team .member img {
+  width: 100%;
+  max-width: 180px;
+  /* ajuste conforme necessário */
   border-radius: 50%;
-  overflow: hidden;
+  border: 2px solid #191d1b;
+  /* cor da borda inicial */
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
-#team .member .member-info {
-  opacity: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
+#team .member img:hover {
+  transform: scale(1.1);
+  /* aumenta a imagem ao passar o mouse */
+  border-color: #009b53;
+  /* cor da borda ao passar o mouse */
+}
+
+#team .member-info {
   display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
+  flex-direction: column;
   align-items: center;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  transition: 0.2s;
 }
 
-#team .member .member-info-content {
-  margin-top: 50px;
-  transition: margin 0.2s;
-}
-
-#team .member:hover .member-info {
-  background: rgba(0, 62, 128, 0.7);
-  opacity: 1;
-  transition: 0.4s;
-}
-
-#team .member:hover .member-info-content {
-  margin-top: 0;
-  transition: margin 0.4s;
-}
-
-#team .member h4 {
-  font-weight: 700;
-  margin-bottom: 2px;
+#team .member-info h4 {
   font-size: 18px;
-  color: #fff;
+  font-weight: bold;
+  margin: 10px 0;
 }
 
-#team .member span {
-  font-style: italic;
+#team .member-info span {
   display: block;
-  font-size: 13px;
-  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 10px;
 }
 
-#team .member .social {
-  margin-top: 15px;
+#team .member-info p {
+  font-style: italic;
+  margin-bottom: 20px;
+  /* espaço entre a descrição e os ícones de redes sociais */
 }
 
-#team .member .social a {
-  transition: none;
-  color: #fff;
-}
-
-#team .member .social a:hover {
-  color: #007bff;
-}
-
-#team .member .social i {
+#team .member-info .social a {
   font-size: 18px;
-  margin: 0 2px;
+  display: inline-block;
+  background: #333;
+  color: #f0f0f0;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: transform 0.5s; /* Adicionado transição para a propriedade transform */
 }
+
+#team .member-info .social a:hover {
+  transform: scale(1.1); /* Aumenta a escala ao passar o mouse */
+  background: #f0f0f0; /*muda a cor de fundo seu comedia*/
+  color: #009b53; /*muda a cor da loga ao passar o mouse*/
+
+}
+
+/* Estilo adicional para organizar em duas linhas */
+@media (min-width: 768px) {
+  #team .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  #team .col-lg-3 {
+    flex: 0 0 48%;
+    /* 48% para dois membros por linha com algum espaço entre eles */
+    margin-bottom: 15px;
+  }
+}
+
 
 /* Clients Section
 --------------------------------*/
