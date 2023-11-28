@@ -512,13 +512,10 @@ h6 {
 
 /* Sections Header
 --------------------------------*/
-.section-header{
-  background: 1a1722;
-}
 
 .section-header h3 {
   font-size: 36px;
-  color: #283d50;
+  color: #009b53;
   text-align: center;
   font-weight: 500;
   position: relative;
@@ -1154,18 +1151,256 @@ figure {
 }
 
 .btn-contact {
-  background-color: #01c76b; /* Cor de fundo do botão */
+  background-color: #fff; /* Cor de fundo do botão */
   color: white; /* Cor do texto do botão */
   border: 1px solid #01c76b; /* Cor da borda do botão */
 }
 
 /* Estilize o botão quando hover (opcional) */
 .btn-contact:hover {
-  background-color: #009b53;
+  background-color: #fff;
   border: 1px solid #009b53;
   color: white;
 }
 
+
+/* Author  */
+
+/**** Sass Variables ****/
+.section-teacher{
+  width: 100%;
+  position: relative;
+  background: url("../img/background-author.png") center top no-repeat;
+  background-size: cover;
+  padding: 260px 0 120px 0;
+}
+
+.section-Author{
+  display: flex;
+  flex-direction: row;
+}
+
+.section-Author .text-content{
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  color: #fff;
+}
+
+.section-Author .text-content h2{
+  font-weight: 600;
+}
+
+.section-Author .text-content p2{
+  font-weight: 400;
+}
+
+.section-Author .card-wrapper {
+  width: 400px;
+  height: 500px;
+  position: relative;
+  margin-left: auto; /* Center the card horizontally */
+  margin-right: auto;
+
+}
+
+.section-Author .card {
+  top: 50%;
+  left: 50%;
+  width: 350px;
+  height: 435px;
+  transform: translate(-50%, -50%);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  transition: 0.5s;
+  margin-left: auto; /* Center the card horizontally */
+  margin-right: auto;
+  position: relative;
+  
+  .card-image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #191d1b;
+    transition: .5s;
+  }
+  
+  &:hover img {
+    opacity: 0.4;
+    transition: .5s;
+  }
+}
+
+.section-Author .card:hover .card-image {
+  transform: translateY(-85px);
+  transition: all .9s;
+}
+
+/**** Social Icons *****/
+
+.section-Author .social-icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  display: flex;
+  margin-left: -20px;
+  
+  li {
+    list-style: none;
+    
+    a {
+      position: relative;
+      display: block;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      background: #191d1b;
+      border-radius: 25px;
+      font-size: 23px;
+      color: #fff;
+      font-weight: bold;
+      margin: 0 8px;
+      transition: .4s;
+      transform: translateY(200px);
+      opacity: 0;
+    } 
+  }
+}
+
+.section-Author  .card:hover .social-icons li a {
+  transform: translateY(0px);
+  opacity: 1; 
+}
+
+.section-Author .social-icons li a:hover {
+  background: #fff; 
+  transition: .2s;
+  .fa {
+    color: #009b53;
+  } 
+}
+
+.section-Author .social-icons li a .fa {
+  transition: .8s;
+    
+  &:hover {
+      color: #009b53;
+  } 
+}
+
+.section-Author .card:hover li:nth-child(1) a {
+    transition-delay: 0.1s;
+}
+.section-Author .card:hover li:nth-child(2) a {
+  transition-delay: 0.2s;
+}
+.section-Author .card:hover li:nth-child(3) a {
+  transition-delay: 0.3s;
+}
+.section-Author .card:hover li:nth-child(4) a {
+  transition-delay: 0.4s;
+}
+
+/**** Personal Details ****/
+
+.section-Author .details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #191d1b;
+  width: 100%;
+  height: 120px;
+  z-index: 1;
+  padding: 10px;
+
+  h2 {
+    margin: 32px 0 0 0;
+    padding: 0;
+    text-align: center;
+    font-weight: 300;
+    color: #fff;
+     
+    .job-title {
+        font-size: 1rem;
+        line-height: 2.5rem;
+        color: #fff;
+        font-weight: 500;
+    }
+  }
+}
+
+.section-Author .jane {
+  position: absolute;
+  bottom: -120px;
+  left: 0;
+  opacity: 0;
+  background: #fff;
+  width: 100%;
+  height: 120px;
+  z-index: 3;
+  padding: 10px;
+  transition: .4s;
+}
+
+.section-Author .profile-two .social-icons li a {
+  border-radius: 50%;
+}
+
+.section-Author .card:hover .profile-img--two {
+  transform: rotateY(180deg);
+}
+
+.section-Author .card:hover .jane {
+  bottom: 0;
+  left: 0;
+  transition-delay: 0.5s;
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .section-Author {
+    margin-bottom: -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section-Author .card {
+    margin-left: auto; /* Center the card horizontally */
+    margin-right: auto;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .section-Author .text-content {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .text-content h2 {
+    text-align: center;
+  }
+
+  .text-content p {
+    text-align: center;
+  }
+}
+#contact .container-general{
+  display:flexbox;
+  flex-direction:row-reverse;
+}
 
 /*--------------------------------------------------------------
 # Footer
