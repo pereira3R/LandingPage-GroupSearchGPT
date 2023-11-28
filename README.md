@@ -3,7 +3,7 @@
 
 -----
 ## Project developer members
-- Allan Moraes 
+- Alan Bruno Moraes Costa 
 - Anthony Ricardo Rodrigues Rezende
 - Andrey
 - Vinicius Vieira
