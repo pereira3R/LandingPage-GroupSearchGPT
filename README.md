@@ -5,6 +5,4 @@
 ## Project developer members
 - Alan Bruno Moraes Costa 
 - Anthony Ricardo Rodrigues Rezende
-- Andrey
-- Vinicius Vieira
 ----- 
