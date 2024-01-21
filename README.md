@@ -39,6 +39,7 @@ List any known issues or future enhancements.
 Thank you messages, credits, or any acknowledgments.
 
 - CSS Web3School [https://www.w3schools.com/css/default.asp](https://www.w3schools.com/css/default.asp)
+- JS Web3School [https://www.w3schools.com/js/default.asp](https://www.w3schools.com/js/default.asp)
 - Bootstrap [https://getbootstrap.com/](https://getbootstrap.com/)
 
 ##
