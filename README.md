@@ -5,7 +5,7 @@
 | <img src="./ImagesMembers/anthony.jpeg" alt="Alan's Photo" width="100"/> Alan Bruno Moraes Costa | <img src="./ImagesMembers/anthony.jpeg" alt="Anthony's Photo" width="100"/> Anthony Ricardo Rodrigues Rezende |
 | --- | --- |
 
----
+-
 
 ### Overview
 The project is nothing more than a landing page that was requested by a research and extension group at the Federal University of Mato Grosso.
