@@ -22,7 +22,7 @@ Explain how to use or run the project.
 
 ## Contact
 <strong> Project Developer Members: </strong>
-| <img src="./ImagesMembers/anthony.jpeg" alt="Alan's Photo" width="100"/> Alan Bruno Moraes Costa | <img src="./ImagesMembers/anthony.jpeg" alt="Anthony's Photo" width="100"/> Anthony Ricardo Rodrigues Rezende |
+| <img src="./ImagesMembers/alan.png" alt="Alan's Photo" width="100"/> Alan Bruno Moraes Costa | <img src="./ImagesMembers/anthony.jpeg" alt="Anthony's Photo" width="100"/> Anthony Ricardo Rodrigues Rezende |
 | --- | --- |
 
 
