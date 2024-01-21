@@ -31,7 +31,7 @@ To use the project, simply use the VsCode live server in "index.html" we didn't 
 
 
 ## Acknowledgments
-Thank you messages, credits, or any acknowledgments.
+Useful resources that we would like to give credit for.
 
 - CSS Web3School [https://www.w3schools.com/css/default.asp](https://www.w3schools.com/css/default.asp)
 - JS Web3School [https://www.w3schools.com/js/default.asp](https://www.w3schools.com/js/default.asp)
