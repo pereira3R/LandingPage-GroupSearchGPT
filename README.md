@@ -1,9 +1,5 @@
 # Project-GroupSearchGPT
 
-<strong> Project Developer Members: </strong>
-| <img src="./ImagesMembers/anthony.jpeg" alt="Alan's Photo" width="100"/> Alan Bruno Moraes Costa | <img src="./ImagesMembers/anthony.jpeg" alt="Anthony's Photo" width="100"/> Anthony Ricardo Rodrigues Rezende |
-| --- | --- |
-
 ##
 
 ### Overview
@@ -30,8 +26,12 @@ Explain how to use or run the project.
 
 ##
 
-### Issues
-List any known issues or future enhancements.
+### Contact
+
+<strong> Project Developer Members: </strong>
+| <img src="./ImagesMembers/anthony.jpeg" alt="Alan's Photo" width="100"/> Alan Bruno Moraes Costa | <img src="./ImagesMembers/anthony.jpeg" alt="Anthony's Photo" width="100"/> Anthony Ricardo Rodrigues Rezende |
+| --- | --- |
+
 
 ##
 
