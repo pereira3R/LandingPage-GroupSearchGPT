@@ -30,7 +30,7 @@ To use the project, simply use the VsCode live server in "index.html" we didn't 
 
 | Anthony Ricardo Rodrigues Rezende | Alan Bruno Moraes |
 | --- | --- |
-| <img src="./ImagesMembers/anthony.jpeg" alt="Anthony's Photo" width="100"/> | <img src="./ImagesMembers/alan.jpeg" alt="Alan's Photo" width="100"/> |
+| <img src="./ImagesMembers/anthony.jpeg" alt="Anthony's Photo" width="100"/> | <img src="./ImagesMembers/alan.png" alt="Alan's Photo" width="100"/> |
 
 - **Email:** anthony_rodriguespereira@outlook.com
 - **LinkedIn:** [Anthony's LinkedIn](https://www.linkedin.com/in/anthony-ricardo-rodrigues-rezende-486917227/)
