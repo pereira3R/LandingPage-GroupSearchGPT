@@ -2,7 +2,10 @@
 
 ## Project Developer Members
 - Alan Bruno Moraes Costa 
+  ![Anthony's Photo](./ImagesMembers/anthony.jpeg)
+
 - Anthony Ricardo Rodrigues Rezende
+  ![Anthony's Photo](./ImagesMembers/anthony.jpeg)
 
 ---
 
