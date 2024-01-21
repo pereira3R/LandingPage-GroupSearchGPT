@@ -35,7 +35,7 @@ To use the project, simply use the VsCode live server in "index.html" we didn't 
 - **LinkedIn:** [Anthony's LinkedIn](https://www.linkedin.com/in/anthony-ricardo-rodrigues-rezende-486917227/)
   <br>
 - **Email:** alanbrunomoraescosta18@hotmail.com
-- **LinkedIn:** [Alan's LinkedIn](https://www.linkedin.com/in/alan-bruno-moraes)
+- **LinkedIn:** [Alan's LinkedIn](https://www.linkedin.com/in/alan-morais-4861322b0)
 
 
 ## Acknowledgments
