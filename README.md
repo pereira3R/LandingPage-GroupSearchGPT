@@ -2,7 +2,7 @@
 
 ## Project Developer Members
 
-<div style="display:block; flex-direction=row">
+<div style="display:inline-block; flex-direction=row">
   <div style="flex-basis: 45%; text-align: center;">
     <img src="./ImagesMembers/anthony.jpeg" alt="Alan's Photo" width="100"/>
     <p>Alan Bruno Moraes Costa</p>
