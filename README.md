@@ -3,14 +3,19 @@
 ## Project Developer Members
 
 <div style="display:flex;">
-  <div style=" text-align: center;">
+  <div style="flex-basis: 45%; text-align: center;">
     <p>
       <img src="./ImagesMembers/anthony.jpeg" alt="Alan's Photo" width="100"/>
       <br />
       Alan Bruno Moraes Costa
+    </p>
+  </div>
+  <div style="flex-basis: 45%; text-align: center;">
+    <p>
       <img src="./ImagesMembers/anthony.jpeg" alt="Anthony's Photo" width="100"/>
       <br />
       Anthony Ricardo Rodrigues Rezende
+    </p>
   </div>
 </div>
 
