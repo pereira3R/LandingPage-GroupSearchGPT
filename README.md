@@ -1,12 +1,10 @@
 # Project-GroupSearchGPT
 
-### Overview
-##
+## Overview
 The project is nothing more than a landing page that was requested by a research and extension group at the Federal University of Mato Grosso.
 
 
-### Technologies Used
-##
+## Technologies Used
 
 The technologies used to develop the project are very simple.
 
@@ -18,21 +16,17 @@ The technologies used to develop the project are very simple.
   <img align="center" alt="jQuery" height="38" width="80" src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
 </div>
 
-### Usage
-##
+## Usage
 Explain how to use or run the project.
 
 
-### Contact
-##
-
+## Contact
 <strong> Project Developer Members: </strong>
 | <img src="./ImagesMembers/anthony.jpeg" alt="Alan's Photo" width="100"/> Alan Bruno Moraes Costa | <img src="./ImagesMembers/anthony.jpeg" alt="Anthony's Photo" width="100"/> Anthony Ricardo Rodrigues Rezende |
 | --- | --- |
 
 
-### Acknowledgments
-##
+## Acknowledgments
 Thank you messages, credits, or any acknowledgments.
 
 - CSS Web3School [https://www.w3schools.com/css/default.asp](https://www.w3schools.com/css/default.asp)
@@ -40,7 +34,5 @@ Thank you messages, credits, or any acknowledgments.
 - Bootstrap [https://getbootstrap.com/](https://getbootstrap.com/)
 
 ##
-
-
 
 Feel free to customize this template according to your project's specific details and requirements. Good luck with your GitHub project! 🚀
