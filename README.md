@@ -20,13 +20,16 @@
 ---
 
 ### Overview
-Brief description or overview of the project.
+The project is nothing more than a landing page that was requested by a research and extension group at the Federal University of Mato Grosso
 
 ### Features
-- List of key features or functionalities.
+- 
 
 ### Technologies Used
-- Mention the technologies, languages, and frameworks used in the project.
+- CSS3
+- Javascript
+- Bootstrap
+- JQuery
 
 ### Installation
 Provide instructions on how to install and set up the project locally.
