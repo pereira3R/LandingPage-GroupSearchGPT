@@ -1,13 +1,16 @@
 # Project-GroupSearchGPT
 
 ## Project Developer Members
-<div style="display:inline-block;">
+
+<div style="display:flex;">
   <div style="flex-basis: 45%; text-align: center;">
     <p>
       <img src="./ImagesMembers/anthony.jpeg" alt="Alan's Photo" width="100"/>
       <br />
       Alan Bruno Moraes Costa
     </p>
+  </div>
+  <div style="flex-basis: 45%; text-align: center;">
     <p>
       <img src="./ImagesMembers/anthony.jpeg" alt="Anthony's Photo" width="100"/>
       <br />
@@ -15,6 +18,7 @@
     </p>
   </div>
 </div>
+
 
 ---
 
