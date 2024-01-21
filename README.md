@@ -26,18 +26,18 @@ To use the project, simply use the VsCode live server in "index.html" we didn't 
 
 ## Contact
 <strong> Project Developer Members: </strong> We are both Computer Science students at the Federal University of Mato Grosso
-| Anthony Ricardo Rodrigues Rezende |
-| --- |
-| <img src="./ImagesMembers/anthony.jpeg" alt="Anthony's Photo" width="100"/> |
+<strong>Project Developer Members:</strong> We are both Computer Science students at the Federal University of Mato Grosso
+
+| Anthony Ricardo Rodrigues Rezende | Alan Bruno Moraes |
+| --- | --- |
+| <img src="./ImagesMembers/anthony.jpeg" alt="Anthony's Photo" width="100"/> | <img src="./ImagesMembers/alan.jpeg" alt="Alan's Photo" width="100"/> |
 
 - **Email:** anthony_rodriguespereira@outlook.com
-- **LinkedIn:** <a href="https://www.linkedin.com/in/anthony-ricardo-rodrigues-rezende-486917227/"> Anthony's LinkedIn </a>
-| Anthony Ricardo Rodrigues Rezende |
-| --- |
-| <img src="./ImagesMembers/anthony.jpeg" alt="Anthony's Photo" width="100"/> |
+- **LinkedIn:** [Anthony's LinkedIn](https://www.linkedin.com/in/anthony-ricardo-rodrigues-rezende-486917227/)
+  
+- **Email:** alan_bruno@example.com
+- **LinkedIn:** [Alan's LinkedIn](https://www.linkedin.com/in/alan-bruno-moraes)
 
-- **Email:** anthony_rodriguespereira@outlook.com
-- **LinkedIn:** <a href="https://www.linkedin.com/in/anthony-ricardo-rodrigues-rezende-486917227/"> Anthony's LinkedIn </a>
 
 ## Acknowledgments
 Useful resources that we would like to give credit for.
