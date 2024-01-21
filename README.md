@@ -1,5 +1,6 @@
 # Project-GroupSearchGPT
 
+
 ## Project Developer Members
 | <img src="./ImagesMembers/anthony.jpeg" alt="Alan's Photo" width="100"/> Alan Bruno Moraes Costa | <img src="./ImagesMembers/anthony.jpeg" alt="Anthony's Photo" width="100"/> Anthony Ricardo Rodrigues Rezende |
 | --- | --- |
@@ -14,8 +15,8 @@ The project is nothing more than a landing page that was requested by a research
 - 
 
 ### Technologies Used
-- CSS3
-- Javascript
+- CSS3 <img align="center" alt="Anthony-CSS3" height="38" width="80" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+- Javascript <img align="center" alt="Anthony-Js" height="38" width="100" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 - Bootstrap
 - JQuery
 
