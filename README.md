@@ -1,17 +1,17 @@
 # Project-GroupSearchGPT
 
 ## Project Developer Members
-<div style="display:inline; justify-content: space-around;">
-  <div style="flex-basis: 45%;">
-    <p align="center">
-      <img src="./ImagesMembers/anthony.jpeg" alt="Alan's Photo" width="100"/>
+<div style="display:flex; justify-content: space-around;">
+  <div style="flex-basis: 45%; text-align: center;">
+    <p>
+      <img src="./ImagesMembers/alan.jpeg" alt="Alan's Photo" width="100"/>
       <br />
       Alan Bruno Moraes Costa
     </p>
   </div>
 
-  <div style="flex-basis: 45%;">
-    <p align="center">
+  <div style="flex-basis: 45%; text-align: center;">
+    <p>
       <img src="./ImagesMembers/anthony.jpeg" alt="Anthony's Photo" width="100"/>
       <br />
       Anthony Ricardo Rodrigues Rezende
