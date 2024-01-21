@@ -40,6 +40,4 @@ Thank you messages, credits, or any acknowledgments.
 
 ##
 
----
-
 Feel free to customize this template according to your project's specific details and requirements. Good luck with your GitHub project! 🚀
