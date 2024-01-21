@@ -2,7 +2,7 @@
 
 ## Project Developer Members
 
-<div style="display:flex; justify-content:space-around">
+<div style="display:flex; justify-content: center">
   <div  text-align: center;">
     <img src="./ImagesMembers/anthony.jpeg" alt="Alan's Photo" width="100"/>
     <img src="./ImagesMembers/anthony.jpeg" alt="Anthony's Photo" width="100"/>
