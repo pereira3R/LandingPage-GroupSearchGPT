@@ -35,11 +35,6 @@ List any known issues or future enhancements.
 
 ##
 
-### License
-Specify the license under which the project is distributed.
-
-##
-
 ### Acknowledgments
 Thank you messages, credits, or any acknowledgments.
 
