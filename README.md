@@ -26,7 +26,6 @@ To use the project, simply use the VsCode live server in "index.html" we didn't 
 
 ## Contact
 <strong> Project Developer Members: </strong> We are both Computer Science students at the Federal University of Mato Grosso
-<strong>Project Developer Members:</strong> We are both Computer Science students at the Federal University of Mato Grosso
 
 | Anthony Ricardo Rodrigues Rezende | Alan Bruno Moraes |
 | --- | --- |
