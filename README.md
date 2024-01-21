@@ -1,10 +1,12 @@
 # Project-GroupSearchGPT
 
 ### Overview
+##
 The project is nothing more than a landing page that was requested by a research and extension group at the Federal University of Mato Grosso.
 
 
 ### Technologies Used
+##
 
 The technologies used to develop the project are very simple.
 
@@ -17,10 +19,12 @@ The technologies used to develop the project are very simple.
 </div>
 
 ### Usage
+##
 Explain how to use or run the project.
 
 
 ### Contact
+##
 
 <strong> Project Developer Members: </strong>
 | <img src="./ImagesMembers/anthony.jpeg" alt="Alan's Photo" width="100"/> Alan Bruno Moraes Costa | <img src="./ImagesMembers/anthony.jpeg" alt="Anthony's Photo" width="100"/> Anthony Ricardo Rodrigues Rezende |
@@ -28,6 +32,7 @@ Explain how to use or run the project.
 
 
 ### Acknowledgments
+##
 Thank you messages, credits, or any acknowledgments.
 
 - CSS Web3School [https://www.w3schools.com/css/default.asp](https://www.w3schools.com/css/default.asp)
