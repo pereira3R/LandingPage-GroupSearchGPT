@@ -9,6 +9,8 @@
 ### Overview
 The project is nothing more than a landing page that was requested by a research and extension group at the Federal University of Mato Grosso.
 
+##
+
 ### Technologies Used
 
 The technologies used to develop the project are very simple.
@@ -21,17 +23,27 @@ The technologies used to develop the project are very simple.
   <img align="center" alt="jQuery" height="38" width="80" src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
 </div>
 
+##
+
 ### Usage
 Explain how to use or run the project.
+
+##
 
 ### Issues
 List any known issues or future enhancements.
 
+##
+
 ### License
 Specify the license under which the project is distributed.
 
+##
+
 ### Acknowledgments
 Thank you messages, credits, or any acknowledgments.
+
+##
 
 ---
 
