@@ -4,7 +4,7 @@
 <div style="display:inline-block;">
   <div style="flex-basis: 45%; text-align: center;">
     <p>
-      <img src="./ImagesMembers/alan.jpeg" alt="Alan's Photo" width="100"/>
+      <img src="./ImagesMembers/anthony.jpeg" alt="Alan's Photo" width="100"/>
       <br />
       Alan Bruno Moraes Costa
     </p>
