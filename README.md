@@ -22,14 +22,8 @@ The project is nothing more than a landing page that was requested by a research
   <img align="center" alt="jQuery" height="38" width="80" src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
 </div>
 
-### Installation
-Provide instructions on how to install and set up the project locally.
-
 ### Usage
 Explain how to use or run the project.
-
-### Contributing
-Guidelines for contributing to the project.
 
 ### Issues
 List any known issues or future enhancements.
