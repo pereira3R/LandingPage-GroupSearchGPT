@@ -1,9 +1,8 @@
 # Project-GroupSearchGPT
 
 ## Project Developer Members
-| ![Alan's Photo](./ImagesMembers/anthony.jpeg) Alan Bruno Moraes Costa | ![Anthony's Photo](./ImagesMembers/anthony.jpeg) Anthony Ricardo Rodrigues Rezende |
+| ![Alan's Photo](./ImagesMembers/anthony.jpeg){width=100} Alan Bruno Moraes Costa | ![Anthony's Photo](./ImagesMembers/anthony.jpeg){width=100} Anthony Ricardo Rodrigues Rezende |
 | --- | --- |
-
 
 ---
 
