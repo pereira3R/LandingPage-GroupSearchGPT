@@ -38,6 +38,11 @@ List any known issues or future enhancements.
 ### Acknowledgments
 Thank you messages, credits, or any acknowledgments.
 
+- CSS Web3School [https://www.w3schools.com/css/default.asp](https://www.w3schools.com/css/default.asp)
+- Bootstrap [https://getbootstrap.com/](https://getbootstrap.com/)
+
 ##
+
+
 
 Feel free to customize this template according to your project's specific details and requirements. Good luck with your GitHub project! 🚀
