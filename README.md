@@ -5,11 +5,7 @@
 <div style="display:flex; flex-direction=row">
   <div  text-align: center;">
     <img src="./ImagesMembers/anthony.jpeg" alt="Alan's Photo" width="100"/>
-    <p>Alan Bruno Moraes Costa</p>
-  </div>
-  <div text-align: center;">
     <img src="./ImagesMembers/anthony.jpeg" alt="Anthony's Photo" width="100"/>
-    <p>Anthony Ricardo Rodrigues Rezende</p>
   </div>
 </div>
 
