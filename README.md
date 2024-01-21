@@ -8,9 +8,6 @@
       <br />
       Alan Bruno Moraes Costa
     </p>
-  </div>
-
-  <div style="flex-basis: 45%; text-align: center;">
     <p>
       <img src="./ImagesMembers/anthony.jpeg" alt="Anthony's Photo" width="100"/>
       <br />
