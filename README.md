@@ -5,12 +5,12 @@
 <div style="display:flex;">
   <div style="flex-basis: 45%; text-align: center;">
     <p>
-      <img src="./ImagesMembers/anthony.jpeg" alt="Alan's Photo" width="100"/>
+      <img src="./ImagesMembers/anthony.jpeg" alt="Alan's Photo"/>
       <br />
       Alan Bruno Moraes Costa
     </p>
     <p>
-      <img src="./ImagesMembers/anthony.jpeg" alt="Anthony's Photo" width="100"/>
+      <img src="./ImagesMembers/anthony.jpeg" alt="Anthony's Photo"/>
       <br />
       Anthony Ricardo Rodrigues Rezende
     </p>
