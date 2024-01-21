@@ -38,5 +38,3 @@ Useful resources that we would like to give credit for.
 - Bootstrap [https://getbootstrap.com/](https://getbootstrap.com/)
 
 ##
-
-Feel free to customize this template according to your project's specific details and requirements. Good luck with your GitHub project! 🚀
