@@ -15,8 +15,8 @@ The project is nothing more than a landing page that was requested by a research
 - 
 
 ### Technologies Used
-- CSS3 <img align="center" alt="Anthony-CSS3" height="38" width="80" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-- Javascript <img align="center" alt="Anthony-Js" height="38" width="100" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+<img align="center" alt="Anthony-CSS3" height="38" width="80" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img align="center" alt="Anthony-Js" height="38" width="100" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 - Bootstrap
 - JQuery
 
