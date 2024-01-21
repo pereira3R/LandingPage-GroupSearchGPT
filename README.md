@@ -3,7 +3,7 @@
 ## Project Developer Members
 
 <div style="display:flex;">
-  <div style="flex-basis: 45%; text-align: center;">
+  <div style=" text-align: center;">
     <p>
       <img src="./ImagesMembers/anthony.jpeg" alt="Alan's Photo" width="100"/>
       <br />
