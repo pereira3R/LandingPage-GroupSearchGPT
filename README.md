@@ -1,7 +1,7 @@
 # Project-GroupSearchGPT
 
 ## Project Developer Members
-<div style="display:flex; justify-content: space-around;">
+<div style="display:inline; justify-content: space-around;">
   <div style="flex-basis: 45%;">
     <p align="center">
       <img src="./ImagesMembers/anthony.jpeg" alt="Alan's Photo" width="100"/>
