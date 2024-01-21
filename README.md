@@ -2,10 +2,18 @@
 
 ## Project Developer Members
 
-<div style="display:flex; align-items:center; justify-content: center">
-  <div  text-align: center;">
-    <img src="./ImagesMembers/anthony.jpeg" alt="Alan's Photo" width="100"/>
-    <img src="./ImagesMembers/anthony.jpeg" alt="Anthony's Photo" width="100"/>
+<div style="display:flex; align-items:center; justify-content: center;">
+  <div style="text-align: center;">
+    <p>
+      <img src="./ImagesMembers/anthony.jpeg" alt="Alan's Photo" width="100"/>
+      <br />
+      Alan Bruno Moraes Costa
+    </p>
+    <p>
+      <img src="./ImagesMembers/anthony.jpeg" alt="Anthony's Photo" width="100"/>
+      <br />
+      Anthony Ricardo Rodrigues Rezende
+    </p>
   </div>
 </div>
 
