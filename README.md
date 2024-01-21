@@ -18,7 +18,11 @@ The technologies used to develop the project are very simple.
 </div>
 
 ## Usage
-Explain how to use or run the project.
+
+To use the project, simply use the VsCode live server in "index.html" we didn't do the backend.
+
+<img align="center" alt="HTML5" height="38" width="100" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img align="center" alt="Live Server" height="38" width="120" src="https://img.shields.io/badge/Live%20Server-323330?style=for-the-badge&logo=visual-studio-code&logoColor=white">
 
 
 ## Contact
