@@ -17,7 +17,7 @@
 ---
 
 ### Overview
-The project is nothing more than a landing page that was requested by a research and extension group at the Federal University of Mato Grosso
+The project is nothing more than a landing page that was requested by a research and extension group at the Federal University of Mato Grosso.
 
 ### Features
 - 
